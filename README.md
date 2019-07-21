@@ -3,14 +3,10 @@
 Containerized, reproducible, development environment with Anaconda, NVIDIA CUDA 10.1, TensorFlow-GPU, Keras-GPU, Dask, CuPy (GPU Accelerated drop in Numpy replacement), and PyCUDA. 
 
 -----------------------------------
-<style type="text/css">
-.full {
-  display: table;
-}
-</style>
+
 
 ### Anaconda + Tensorflow for GPU Machine Learning Development Environment ###
-<p class="full">
+<p display="table">
 <img align="left" src="https://avatars2.githubusercontent.com/u/1158637?s=200&v=4" width="175" height="auto" />
 <img align="left" src="https://avatars2.githubusercontent.com/u/1728152?s=200&v=4" width="175" height="auto" />
 <img style="margin-right:100%;" align="left" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/tensorflow/tensorflow.png" width="175" height="auto" />
