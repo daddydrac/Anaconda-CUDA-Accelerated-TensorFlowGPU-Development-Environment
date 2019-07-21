@@ -19,7 +19,7 @@ Containerized, reproducible, development environment with Anaconda, NVIDIA CUDA 
 
 * [TensorFlow for GPU v1.13.1](https://www.tensorflow.org/install/gpu): GPU enabled Machine Learning framework 
 
-* [TensorBoard](https://www.datacamp.com/community/tutorials/tensorboard-tutorial): Understand, debug, and optimize, located on ` localhost:6006  `
+* [TensorBoard](https://www.datacamp.com/community/tutorials/tensorboard-tutorial): Understand, debug, and optimize, located on ` localhost:6006  `, [Official Docs](https://www.tensorflow.org/guide/summaries_and_tensorboard)
 
 * [Keras-GPU](https://keras.io/): Keras: The Python Deep Learning library for GPUs
 
