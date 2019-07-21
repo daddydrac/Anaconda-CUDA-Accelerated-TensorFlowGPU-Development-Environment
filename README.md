@@ -4,15 +4,12 @@ Containerized, reproducible, development environment with Anaconda, NVIDIA CUDA 
 
 -----------------------------------
 
-
-### Anaconda + Tensorflow for GPU Machine Learning Development Environment ###
+#### Anaconda + Tensorflow: CUDA enabled GPU Machine Learning Development Environment ####
 <p style="display:table;">
 <img align="left" src="https://avatars2.githubusercontent.com/u/1158637?s=200&v=4" width="31%" height="auto" />
 <img align="left" src="https://avatars2.githubusercontent.com/u/1728152?s=200&v=4" width="31%" height="auto" />
 <img align="left" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/tensorflow/tensorflow.png" width="31%" height="auto" />
 </p>
-
-
 
 -----------------------------------
 
