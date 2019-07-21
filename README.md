@@ -1,4 +1,4 @@
-# Anaconda with TensorFlowGPU, Keras-GPU, CuPy and NVIDIA CUDA X #
+# Anaconda with TensorFlowGPU and NVIDIA CUDA X #
 
 Containerized, reproducible, development environment with Anaconda, NVIDIA CUDA 10.1, TensorFlow-GPU, Keras-GPU, Dask, CuPy (GPU Accelerated drop in Numpy replacement), and PyCUDA. 
 
