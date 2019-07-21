@@ -1,13 +1,15 @@
 # Anaconda Accelerate with TensorFlow #
 
+Containerized, reproducible, development environment with Anaconda, NVIDIA CUDA 10.1, TensorFlow-GPU, Keras-GPU, Dask, CuPy (GPU Accelerated drop in Numpy replacement), and PyCUDA. 
+
 ------------------------------------------
 
-### Anaconda Accelerate + Tensorflow for GPU Machine Learning Development Environment
+### Anaconda Accelerate + Tensorflow for GPU Machine Learning Development Environment ###
 
 <img align="left" src="https://avatars2.githubusercontent.com/u/1158637?s=200&v=4" width="75" height="auto" />
 <img align="left" src="https://avatars2.githubusercontent.com/u/1728152?s=200&v=4" width="75" height="auto" />
 <img align="left" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/tensorflow/tensorflow.png" width="75" height="auto" />
-<br />
+
 ------------------------------------------------
 
 #### Features
