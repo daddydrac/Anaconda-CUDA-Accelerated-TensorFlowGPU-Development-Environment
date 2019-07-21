@@ -25,6 +25,8 @@ Containerized, reproducible, development environment with Anaconda, NVIDIA CUDA 
 
 * [CuPy:latest](https://cupy.chainer.org/): GPU accelerated drop in replacement for numpy
 
+* [Numba](https://numba.pydata.org/): Numba also works great with Jupyter notebooks for interactive computing, and with distributed execution frameworks, like Dask and Spark, allows you pipe functions to be executed on GPU, etc
+
 
 ### Distributed Feature Engineering 
 
@@ -50,9 +52,9 @@ Containerized, reproducible, development environment with Anaconda, NVIDIA CUDA 
 * Only Tesla Pascal and Turing GPU Architecture are supported 
 * Test with synthetic data that compares GPU to CPU benchmark, and Tensorboard example:
    
-   1. [CPU/GPU Benchmark](/blob/master/apps/gpu_benchmarks/benchmark.py)
+   1. [CPU/GPU Benchmark](https://github.com/joehoeller/Anaconda-CUDA-Accelerated-TensorFlowGPU-Development-Environment/tree/master/apps/gpu_benchmarks/benchmark.py)
    
-   2. (Tensorboard to understand & debug neural networks)[/blob/master/apps/gpu_benchmarks/tensorboard.py]
+   2. [Tensorboard to understand & debug neural networks](https://github.com/joehoeller/Anaconda-CUDA-Accelerated-TensorFlowGPU-Development-Environment/tree/master/apps/gpu_benchmarks/tensorboard.py)
 
 
 -------------------------------------------------------------
