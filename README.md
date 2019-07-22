@@ -152,7 +152,9 @@ Then cd into the folder that hot reloads code from your local folder/fav IDE at:
 </p>
 
 <p style="display:table;">
+   <br/>
 <img align="left" src="tensorboard-b.png" width="100%" height="auto" />
+   <br />
 </p>
 
 -----------------------------------------
