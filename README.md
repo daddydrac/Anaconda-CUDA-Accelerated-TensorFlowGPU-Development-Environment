@@ -145,7 +145,15 @@ Then cd into the folder that hot reloads code from your local folder/fav IDE at:
 
 - Go to the browser and navigate to: ` localhost:6006 `
 
+- You should see the following automatically populate in localhost:6006:
 
+<p style="display:table;">
+<img align="left" src="tensorboard-a.png" width="100%" height="auto" />
+</p>
+
+<p style="display:table;">
+<img align="left" src="tensorboard-b.png" width="100%" height="auto" />
+</p>
 
 ### Step 5: Run tests to prove container based GPU perf ###
 
