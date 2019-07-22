@@ -6,10 +6,12 @@ Containerized, reproducible, development environment with Anaconda, NVIDIA CUDA 
 
 #### Anaconda + Tensorflow: CUDA enabled GPU Machine Learning Development Environment ####
 <p style="display:table;">
-<img align="left" src="https://avatars2.githubusercontent.com/u/1158637?s=200&v=4" width="31%" height="auto" />
-<img align="left" src="https://avatars2.githubusercontent.com/u/1728152?s=200&v=4" width="31%" height="auto" />
+<img align="left" src="https://avatars2.githubusercontent.com/u/1158637?s=200&v=4" width="19%" height="auto" />
+<img align="left" src="https://avatars2.githubusercontent.com/u/1728152?s=200&v=4" width="19%" height="auto" />
 <img align="left" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/tensorflow/tensorflow.png" width="31%" height="auto" />
-<img align="left" src="https://numba.pydata.org/_static/numba-blue-horizontal-rgb.svg" width="31%" height="auto" />
+<img align="left" src="https://numba.pydata.org/_static/numba-blue-horizontal-rgb.svg" width="19%" height="auto" />
+<img align="left" src="https://dask.org/_images/dask_horizontal_white_no_pad.svg" width="19%" height="auto" />
+<img align="left" src="https://featuretools1.wpengine.com/wp-content/uploads/2017/11/logo-250-57-grey.png" width="19%" height="auto" />
 </p>
 
 -----------------------------------
