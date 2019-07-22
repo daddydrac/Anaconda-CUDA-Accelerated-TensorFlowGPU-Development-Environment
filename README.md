@@ -37,7 +37,7 @@ Containerized, reproducible, development environment with Anaconda, NVIDIA CUDA 
 
 * [NVIDIA TensorRT inference accelerator and CUDA 10](https://developer.nvidia.com/tensorrt): CUDA + TPUs makes you awesome
 
-* [PyCUDA 2019](https://mathema.tician.de/software/pycuda/): Comes with Anaconda Accelerate ([See here](https://www.scivision.dev/install-cuda-accelerate-for-anaconda-python/)); Python interface for direct access to GPU or TPU
+* [PyCUDA 2019](https://mathema.tician.de/software/pycuda/): Access NVIDIA GPUs and TPUs ([Examples here](https://www.scivision.dev/install-cuda-accelerate-for-anaconda-python/)); Python interface for direct access to GPU or TPU
 
 * [cuDNN7.4.1.5 for deeep learning in CNN's](https://developer.nvidia.com/cudnn): GPU-accelerated library of primitives for deep neural networks
 
