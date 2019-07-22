@@ -155,6 +155,8 @@ Then cd into the folder that hot reloads code from your local folder/fav IDE at:
 <img align="left" src="tensorboard-b.png" width="100%" height="auto" />
 </p>
 
+-----------------------------------------
+
 ### Step 5: Run tests to prove container based GPU perf ###
 
 - Demonstrate GPU vs CPU performance:
