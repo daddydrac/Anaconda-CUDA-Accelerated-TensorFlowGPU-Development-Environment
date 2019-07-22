@@ -5,9 +5,20 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update && apt-get install -y --fix-mi
         build-essential \
     	cmake \
         curl \
+	binutils \
+	gdb \
         git \
+	freeglut3 \
+	freeglut3-dev \
+	libxi-dev \
+	libxmu-dev \
 	gfortran \
         pkg-config \
+	python-numpy \
+	python-dev \
+	python-setuptools \
+	libboost-python-dev \
+	libboost-thread-dev \
         pbzip2 \
         rsync \
         software-properties-common \
@@ -30,6 +41,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update && apt-get install -y --fix-mi
 	libswscale-dev \
 	libcanberra-gtk-module \
         libboost-dev \
+	libboost-all-dev \
         libeigen3-dev \
 	wget \
         vim \
@@ -51,8 +63,6 @@ RUN file="$(ls -1 /usr/local/)" && echo $file
 
 
 # Install Anaconda
-
-
 RUN wget --quiet https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh && \
 /bin/bash Miniconda3-latest-Linux-x86_64.sh -f -b -p /opt/conda && \
 rm Miniconda3-latest-Linux-x86_64.sh
@@ -61,6 +71,22 @@ ENV PATH /opt/conda/bin:$PATH
 
 # For CUDA profiling, TensorFlow requires CUPTI.
 ENV LD_LIBRARY_PATH /usr/local/cuda/extras/CUPTI/lib64:$LD_LIBRARY_PATH
+
+ARG PYTHON=python3
+ARG PIP=pip3
+
+# See http://bugs.python.org/issue19846
+ENV LANG C.UTF-8
+
+RUN apt-get update && apt-get install -y \
+    ${PYTHON} \
+    ${PYTHON}-pip
+
+RUN ${PIP} --no-cache-dir install --upgrade \
+    pip \
+    setuptools
+    
+RUN pip install pycuda
 
 RUN conda update -n base -c defaults conda
 
