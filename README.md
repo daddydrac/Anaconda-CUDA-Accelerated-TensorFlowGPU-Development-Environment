@@ -15,7 +15,7 @@ Containerized, reproducible, development environment with Anaconda, NVIDIA CUDA 
 
 * [Anaconda](https://www.anaconda.com/why-anaconda/): Anaconda is a distribution of Python for scientific computing
 
-* [TensorFlow for GPU v1.13.1](https://www.tensorflow.org/install/gpu): GPU enabled Machine Learning framework 
+* [TensorFlow for GPU v1.14](https://www.tensorflow.org/install/gpu): GPU enabled Machine Learning framework 
 
 * [TensorBoard](https://www.datacamp.com/community/tutorials/tensorboard-tutorial): Understand, debug, and optimize, located on ` localhost:6006  `, [Official Docs](https://www.tensorflow.org/guide/summaries_and_tensorboard)
 
