@@ -11,7 +11,7 @@ Containerized, reproducible, development environment with Anaconda, NVIDIA CUDA 
 <img align="left" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/tensorflow/tensorflow.png" width="130px" height="auto" />
 <img align="left" src="https://numba.pydata.org/_static/numba-blue-horizontal-rgb.svg" width="150px" height="auto" />
 <img align="right" src="https://image.slidesharecdn.com/chaichinger-dask-pydays2016-slides-170513081952/95/parallel-computing-with-dask-pydays-2017-8-638.jpg?cb=1494664169" width="140px" height="auto" />
-<img align="right" src="https://camo.githubusercontent.com/cfcfc32dae79f7857d760a358227665a054b5583/68747470733a2f2f7777772e66656174757265746f6f6c732e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031372f31322f466561747572654c6162732d4c6f676f2d54616e676572696e652d3830302e706e67" width="150px" height="auto" />
+<img align="right" src="https://camo.githubusercontent.com/cfcfc32dae79f7857d760a358227665a054b5583/68747470733a2f2f7777772e66656174757265746f6f6c732e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031372f31322f466561747572654c6162732d4c6f676f2d54616e676572696e652d3830302e706e67" width="170px" height="auto" />
 </p>
 
 -----------------------------------
