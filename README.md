@@ -171,6 +171,32 @@ Time taken: 0:00:03.934996`
 `Shape: (10000, 10000) Device: /gpu:0
 Time taken: 0:00:01.032577`
 
+----------------------------------------------------------------
+
+### Misc: Troubleshooting Docker conflicts, container errors, volume mappings, etc...
+
+  - Exec into a container:
+      Get container name or ID: `docker ps`
+      Exec into container: ` docker exec -u root -t -i <container name or id> /bin/bash `
+  #
+
+  - Remove all containers:
+  
+  	```docker rm $(docker ps -a -q)```
+  #
+  
+  - Remove all images:
+  
+  	```docker rmi $(docker images -a -q)```
+  #
+  
+  - Remove a volume (necessary when re-alloc'ing new file paths for mounted volumes):
+  
+  	```docker volume ls```
+  
+  	```docker volume rm volume_name volume_name```
+  #
+
 
 --------------------------------------------------
 
