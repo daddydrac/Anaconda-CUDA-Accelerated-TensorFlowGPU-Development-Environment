@@ -30,7 +30,7 @@ Containerized, reproducible, development environment with Anaconda, NVIDIA CUDA 
 
 * [Dask Distributed](https://dask.org/): Distributed ingestion of data/See [Scaling Python with Dask](https://www.slideshare.net/secret/fi010O0yhOEqZi)
 
-* [Feature Tools](https://docs.featuretools.com/): Automted feature engineering
+* [Feature Tools](https://docs.featuretools.com/): Automated feature engineering
 
 
 ### CUDA for GPU/TPU Enablement
