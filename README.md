@@ -3,6 +3,11 @@
 Containerized, reproducible, development environment with Anaconda, NVIDIA CUDA 10.1, TensorFlow-GPU, Keras-GPU, Dask, CuPy (GPU Accelerated drop in Numpy replacement), and PyCUDA. 
 
 -----------------------------------
+#### Reproducible ML ####
+
+It is up to you, the developer, to version lock the container and ensure same GPU architecture is used, you might want to look into TFX and TF Serving to do so.
+
+-----------------------------------
 
 #### Anaconda + Tensorflow: CUDA enabled GPU Machine Learning Development Environment ####
 <p style="display:table;">
