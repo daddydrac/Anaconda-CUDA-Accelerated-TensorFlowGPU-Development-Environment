@@ -130,6 +130,7 @@ WORKDIR /tf
 EXPOSE 8888 6006
 
 RUN useradd -ms /bin/bash container_user
+RUN chown -R user anaconda3
 RUN python3 -m ipykernel.kernelspec
 
 CMD ["bash", "-c", "source /etc/bash.bashrc && jupyter notebook --notebook-dir=/tf --ip 0.0.0.0 --no-browser --allow-root --NotebookApp.custom_display_url='http://localhost:8888'"]
