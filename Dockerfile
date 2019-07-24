@@ -1,4 +1,4 @@
-FROM nvidia/cuda:10.0-cudnn7-devel-ubuntu18.04
+FROM nvidia/cuda:10.1-cudnn7-devel-ubuntu18.04
 
 # Core Linux Deps
 RUN DEBIAN_FRONTEND=noninteractive apt-get update && apt-get install -y --fix-missing --no-install-recommends \
@@ -14,9 +14,9 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update && apt-get install -y --fix-mi
 	libxmu-dev \
 	gfortran \
         pkg-config \
-	python-numpy \
-	python-dev \
-	python-setuptools \
+	python3-numpy \
+	python3-dev \
+	python3-setuptools \
 	libboost-python-dev \
 	libboost-thread-dev \
         pbzip2 \
@@ -55,9 +55,9 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update && apt-get install -y --fix-mi
 
 # Install TensorRT (TPU Access)
 RUN apt-get update && \
-        apt-get install nvinfer-runtime-trt-repo-ubuntu1804-5.0.2-ga-cuda10.0 && \
+        apt-get install nvinfer-runtime-trt-repo-ubuntu1804-5.0.2-ga-cuda10.0 -y && \
         apt-get update && \
-        apt-get install libnvinfer5=5.0.2-1+cuda10.0
+        apt-get install libnvinfer5=5.0.2-1+cuda10.0 -y
 
 RUN file="$(ls -1 /usr/local/)" && echo $file
 
