@@ -226,10 +226,6 @@ AppArmor on Ubuntu has sec issues, so remove docker from it on your local box, (
 
 --------------------------------------------------
 
-If building impactful data science tools is important to you or your business, please get in touch.
-
-#### Contact
-Email: joehoeller@gmail.com
 
 
 
